@@ -9,7 +9,7 @@ These scripts demonstrate the basics of interacting with the Threat Response Enr
 
 ### Usage:
 ```
-python  01_deliberate_observables.py
+python 01_deliberate_observables.py
 ```
 
 ### Example script output: 
