@@ -5,7 +5,7 @@
 These scripts demonstrate the basics of interacting with the Threat Response Enrich APIs. 
 
 ### Before using you must update the following:
-- access_token
+- tr_access_token
 
 ### Usage:
 ```
