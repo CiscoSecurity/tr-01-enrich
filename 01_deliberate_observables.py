@@ -1,11 +1,11 @@
 import requests
 import json
 
-access_token = 'eyJhbGciO....bPito5n5Q' # Truncated example
+tr_access_token = 'eyJhbGciO....bPito5n5Q' # Truncated example
 
 url = 'https://visibility.amp.cisco.com/iroh/iroh-enrich/deliberate/observables'
 
-headers = {'Authorization':'Bearer {}'.format(access_token), 'Content-Type':'application/json', 'Accept':'application/json'}
+headers = {'Authorization':'Bearer {}'.format(tr_access_token), 'Content-Type':'application/json', 'Accept':'application/json'}
 
 deliberate_payload = [{'type': 'domain', 'value': 'cisco.com'}]
 
